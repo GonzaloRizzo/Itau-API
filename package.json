@@ -1,8 +1,19 @@
 {
   "name": "itau-api",
-  "version": "0.0.1",
-  "description": "Itau API",
+  "version": "0.1.0-beta1",
+  "description": "Allows to access your Itau account programmatically",
+  "author": "Gonzalo Rizzo <gonza.rizzo98@gmail.com>",
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.org/GonzaloRizzo/itau-api.git"
+  },
   "main": "index.js",
+  "private": "true",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "directories": {
     "lib": "lib"
   },
@@ -21,7 +32,5 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Gonzalo Rizzo",
-  "license": "GPL-2.0"
+  }
 }
